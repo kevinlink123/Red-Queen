@@ -1,20 +1,14 @@
 extends Panel
 
 var originalText = "Cuando menos te lo esperas...";
-var newText = "Puto el que lo lea";
-var wasPressed = false;
+var newText = "No hay fuerza de alma para continuar";
 
 func _ready():
-	get_node("Button").connect("pressed", self, "on_button_pressed");
-	
+	get_node("Container/Button").connect("pressed", self, "on_button_pressed");
+	get_node("Container/Label").text = originalText;
 
 
 func on_button_pressed():
-	if wasPressed:
-		get_node("Label").text = originalText;
-		wasPressed = false;
-	else:
-		get_node("Label").text = newText;
-		wasPressed = true;
+		get_node("Container/Label").text = newText;
 	
 	

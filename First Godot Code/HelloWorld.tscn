@@ -4,27 +4,55 @@
 [ext_resource path="res://MensajePrron.gd" type="Script" id=2]
 
 [node name="Panel" type="Panel"]
-margin_right = 1026.0
-margin_bottom = 602.0
+margin_left = -0.768677
+margin_top = 0.768646
+margin_right = 1025.23
+margin_bottom = 602.769
 script = ExtResource( 1 )
 
-[node name="Label" type="Label" parent="."]
-margin_left = 399.29
-margin_top = 368.92
-margin_right = 593.29
-margin_bottom = 398.92
+[node name="Container" type="Panel" parent="."]
+modulate = Color( 0.752941, 0.486275, 0.486275, 1 )
+margin_left = 352.91
+margin_top = 237.898
+margin_right = 632.91
+margin_bottom = 438.898
+
+[node name="Label" type="Label" parent="Container"]
+margin_left = 7.0
+margin_top = 123.0
+margin_right = 277.0
+margin_bottom = 137.0
+custom_colors/font_color = Color( 1, 0.466667, 0.466667, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 text = "Cuando menos te lo esperas..."
+align = 1
 
-[node name="Button" type="Button" parent="."]
-margin_left = 434.444
-margin_top = 407.468
-margin_right = 551.444
-margin_bottom = 438.468
-text = "Press me"
-
-[node name="MensajePrron" type="Label" parent="."]
-margin_left = 462.301
-margin_top = 345.432
-margin_right = 544.301
-margin_bottom = 366.432
+[node name="MensajePrron" type="Label" parent="Container"]
+margin_left = 3.0
+margin_top = 102.0
+margin_right = 277.0
+margin_bottom = 117.0
+rect_pivot_offset = Vector2( 38.8701, 10.3316 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+align = 1
 script = ExtResource( 2 )
+
+[node name="Button" type="Button" parent="Container"]
+margin_left = 66.0757
+margin_top = 147.421
+margin_right = 217.076
+margin_bottom = 178.421
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Gastar fuerza de alma"
+
+[node name="Continue" type="Label" parent="Container"]
+margin_left = 74.3371
+margin_top = 65.5115
+margin_right = 208.337
+margin_bottom = 105.512
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+custom_colors/font_outline_modulate = Color( 0.6, 0.317647, 0.317647, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "CONTINUE?"
+align = 1
+valign = 1
