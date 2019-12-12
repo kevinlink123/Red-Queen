@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://HelloWorld.gd" type="Script" id=1]
+[ext_resource path="res://MensajePrron.gd" type="Script" id=2]
 
 [node name="Panel" type="Panel"]
 margin_right = 1026.0
@@ -20,3 +21,10 @@ margin_top = 407.468
 margin_right = 551.444
 margin_bottom = 438.468
 text = "Press me"
+
+[node name="MensajePrron" type="Label" parent="."]
+margin_left = 462.301
+margin_top = 345.432
+margin_right = 544.301
+margin_bottom = 366.432
+script = ExtResource( 2 )
