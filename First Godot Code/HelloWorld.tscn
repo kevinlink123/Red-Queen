@@ -3,10 +3,10 @@
 [ext_resource path="res://HelloWorld.gd" type="Script" id=1]
 [ext_resource path="res://MensajePrron.gd" type="Script" id=2]
 
-[node name="Panel" type="Panel"]
-margin_left = -0.768677
+[node name="Background" type="Panel"]
+margin_left = -2.7251
 margin_top = 0.768646
-margin_right = 1025.23
+margin_right = 1023.27
 margin_bottom = 602.769
 script = ExtResource( 1 )
 
@@ -18,38 +18,38 @@ margin_right = 632.91
 margin_bottom = 438.898
 
 [node name="Label" type="Label" parent="Container"]
-margin_left = 7.0
-margin_top = 123.0
-margin_right = 277.0
-margin_bottom = 137.0
+margin_left = 0.27948
+margin_top = 111.446
+margin_right = 279.279
+margin_bottom = 125.446
 custom_colors/font_color = Color( 1, 0.466667, 0.466667, 1 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 text = "Cuando menos te lo esperas..."
 align = 1
 
 [node name="MensajePrron" type="Label" parent="Container"]
-margin_left = 3.0
-margin_top = 102.0
-margin_right = 277.0
-margin_bottom = 117.0
+margin_left = 1.3974
+margin_top = 83.7771
+margin_right = 280.397
+margin_bottom = 97.7771
 rect_pivot_offset = Vector2( 38.8701, 10.3316 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 align = 1
 script = ExtResource( 2 )
 
 [node name="Button" type="Button" parent="Container"]
-margin_left = 66.0757
-margin_top = 147.421
-margin_right = 217.076
-margin_bottom = 178.421
+margin_left = 66.7937
+margin_top = 126.165
+margin_right = 217.794
+margin_bottom = 155.165
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 text = "Gastar fuerza de alma"
 
 [node name="Continue" type="Label" parent="Container"]
-margin_left = 74.3371
-margin_top = 65.5115
-margin_right = 208.337
-margin_bottom = 105.512
+margin_left = 0.55896
+margin_top = 61.6982
+margin_right = 279.559
+margin_bottom = 75.6982
 custom_colors/font_color = Color( 1, 0, 0, 1 )
 custom_colors/font_outline_modulate = Color( 0.6, 0.317647, 0.317647, 1 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
