@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://Scenes/Adventurer/Adventurer.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Adventurer-1.5/Individual Sprites/adventurer-attack1-01.png" type="Texture" id=2]
@@ -19,6 +19,8 @@
 [ext_resource path="res://Assets/Adventurer-1.5/Individual Sprites/adventurer-attack2-03.png" type="Texture" id=17]
 [ext_resource path="res://Assets/Adventurer-1.5/Individual Sprites/adventurer-attack2-04.png" type="Texture" id=18]
 [ext_resource path="res://Assets/Adventurer-1.5/Individual Sprites/adventurer-attack2-05.png" type="Texture" id=19]
+[ext_resource path="res://Assets/Audios/blop.wav" type="AudioStream" id=20]
+[ext_resource path="res://Assets/Audios/SwordShake.wav" type="AudioStream" id=21]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -106,3 +108,9 @@ shape = SubResource( 3 )
 [node name="CollisionSwordSwipe" type="CollisionShape2D" parent="."]
 position = Vector2( 740, 370 )
 shape = SubResource( 3 )
+
+[node name="SwichSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 20 )
+
+[node name="SwordShakeSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 21 )
