@@ -1,25 +1,28 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://TitleScreen.gd" type="Script" id=1]
-[ext_resource path="res://assets/Logo.png" type="Texture" id=2]
-[ext_resource path="res://Buttons/NewGameButton.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Buttons/ContinueButton.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Buttons/OptionButton.tscn" type="PackedScene" id=5]
-[ext_resource path="res://assets/character/Shrek.png" type="Texture" id=6]
-[ext_resource path="res://Isocpeur_30_dynamicfont.tres" type="DynamicFontData" id=7]
-[ext_resource path="res://fade_in/FadeIn.tscn" type="PackedScene" id=8]
+[ext_resource path="res://assets/Background.jpeg" type="Texture" id=2]
+[ext_resource path="res://assets/Logo.png" type="Texture" id=3]
+[ext_resource path="res://Buttons/NewGameButton.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Buttons/ContinueButton.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Buttons/OptionButton.tscn" type="PackedScene" id=6]
+[ext_resource path="res://assets/character/Shrek.png" type="Texture" id=7]
+[ext_resource path="res://Isocpeur_30_dynamicfont.tres" type="DynamicFontData" id=8]
+[ext_resource path="res://fade_in/FadeIn.tscn" type="PackedScene" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 size = 24
-font_data = ExtResource( 7 )
+font_data = ExtResource( 8 )
 
 [node name="TitleScreen" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_lock_": true
-}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
 
 [node name="Menu" type="VBoxContainer" parent="."]
 margin_left = 120.0
@@ -30,7 +33,7 @@ margin_bottom = 640.0
 [node name="Logo" type="TextureRect" parent="Menu"]
 margin_right = 1040.0
 margin_bottom = 87.0
-texture = ExtResource( 2 )
+texture = ExtResource( 3 )
 stretch_mode = 4
 
 [node name="CenterRow" type="HBoxContainer" parent="Menu"]
@@ -48,21 +51,22 @@ size_flags_vertical = 3
 custom_constants/separation = 40
 alignment = 1
 
-[node name="NewGameButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 3 )]
+[node name="NewGameButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 4 )]
 margin_right = 520.0
 margin_bottom = 70.0
 
-[node name="ContinueButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 4 )]
+[node name="ContinueButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 5 )]
 margin_top = 110.0
 margin_right = 520.0
 margin_bottom = 180.0
 
-[node name="OptionButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 5 )]
+[node name="OptionButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 6 )]
 margin_top = 220.0
 margin_right = 520.0
 margin_bottom = 290.0
 
 [node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
+editor/display_folded = true
 margin_left = 520.0
 margin_right = 1040.0
 margin_bottom = 290.0
@@ -74,7 +78,7 @@ margin_left = 134.0
 margin_top = 35.0
 margin_right = 386.0
 margin_bottom = 255.0
-texture = ExtResource( 6 )
+texture = ExtResource( 7 )
 
 [node name="VersionLabel" type="Label" parent="Menu"]
 margin_top = 385.0
@@ -86,6 +90,6 @@ text = "Versión alpha 0.0.0
 Estudio Tuvi ©"
 valign = 2
 
-[node name="FadeIn" parent="." instance=ExtResource( 8 )]
+[node name="FadeIn" parent="." instance=ExtResource( 9 )]
 visible = false
 [connection signal="fade_finished" from="FadeIn" to="." method="_on_FadeIn_fade_finished"]
