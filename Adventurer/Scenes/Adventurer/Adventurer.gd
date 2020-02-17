@@ -2,11 +2,17 @@ extends Node
 var animPosition = 0;
 var myAnimations = ["SwordSwipe","BackSlash"];
 var arrowPosition = [225,760];
+var frames = 0;
 
 func _ready():
 	randomize();
 
 func _process(delta):
+	frames += 1;
+	if(frames == 60):
+		print($SwordSwipe.is_playing())
+		frames = 0;
+	HTTPClient.METHOD_GET;
 	if(Input.is_action_just_pressed("ui_up")):
 		$SwordShakeSound.pitch_scale = 0.3 + animPosition * 0.3
 		$SwordShakeSound.play()

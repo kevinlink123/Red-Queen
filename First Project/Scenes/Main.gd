@@ -4,7 +4,7 @@ export (PackedScene) var Mob;
 var score;
 
 func _ready():
-    randomize();
+	randomize();
 
 func gameOver():
 	$ScoreTimer.stop();
