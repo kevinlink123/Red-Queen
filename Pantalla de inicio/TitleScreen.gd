@@ -1,5 +1,5 @@
 extends Control
-var  scene_path_to_load
+var scene_path_to_load
 
 func _ready():
 	for button in $Menu/CenterRow/Buttons.get_children():

@@ -1,12 +1,11 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://TitleScreen.gd" type="Script" id=1]
 [ext_resource path="res://assets/Background.jpeg" type="Texture" id=2]
-[ext_resource path="res://assets/Logo.png" type="Texture" id=3]
+[ext_resource path="res://assets/Logo (Large Font).png" type="Texture" id=3]
 [ext_resource path="res://Buttons/NewGameButton.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Buttons/ContinueButton.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Buttons/OptionButton.tscn" type="PackedScene" id=6]
-[ext_resource path="res://assets/character/Shrek.png" type="Texture" id=7]
 [ext_resource path="res://Isocpeur_30_dynamicfont.tres" type="DynamicFontData" id=8]
 [ext_resource path="res://fade_in/FadeIn.tscn" type="PackedScene" id=9]
 
@@ -18,33 +17,46 @@ font_data = ExtResource( 8 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="TextureRect" type="TextureRect" parent="."]
-anchor_right = 1.0
+anchor_right = 0.99
 anchor_bottom = 1.0
+margin_left = 1.03882
+margin_top = -3.11658
+margin_right = -71.3011
+margin_bottom = -46.1166
 texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Menu" type="VBoxContainer" parent="."]
 margin_left = 120.0
 margin_top = 80.0
 margin_right = 1160.0
 margin_bottom = 640.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Logo" type="TextureRect" parent="Menu"]
 margin_right = 1040.0
-margin_bottom = 87.0
+margin_bottom = 136.0
 texture = ExtResource( 3 )
 stretch_mode = 4
 
 [node name="CenterRow" type="HBoxContainer" parent="Menu"]
-margin_top = 91.0
+margin_top = 140.0
 margin_right = 1040.0
-margin_bottom = 381.0
+margin_bottom = 430.0
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="Buttons" type="VBoxContainer" parent="Menu/CenterRow"]
-margin_right = 520.0
+margin_right = 1040.0
 margin_bottom = 290.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -52,36 +64,18 @@ custom_constants/separation = 40
 alignment = 1
 
 [node name="NewGameButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 4 )]
-margin_right = 520.0
 margin_bottom = 70.0
 
 [node name="ContinueButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 5 )]
 margin_top = 110.0
-margin_right = 520.0
 margin_bottom = 180.0
 
 [node name="OptionButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 6 )]
 margin_top = 220.0
-margin_right = 520.0
 margin_bottom = 290.0
-
-[node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
-editor/display_folded = true
-margin_left = 520.0
-margin_right = 1040.0
-margin_bottom = 290.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="TextureRect" type="TextureRect" parent="Menu/CenterRow/CenterContainer"]
-margin_left = 134.0
-margin_top = 35.0
-margin_right = 386.0
-margin_bottom = 255.0
-texture = ExtResource( 7 )
 
 [node name="VersionLabel" type="Label" parent="Menu"]
-margin_top = 385.0
+margin_top = 434.0
 margin_right = 1040.0
 margin_bottom = 560.0
 size_flags_vertical = 3
