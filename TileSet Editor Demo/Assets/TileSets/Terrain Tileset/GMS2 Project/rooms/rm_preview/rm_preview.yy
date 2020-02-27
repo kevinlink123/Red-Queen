@@ -1,0 +1,217 @@
+
+{
+    "name": "rm_preview",
+    "id": "a3335f71-530f-4646-927c-5591de3b6f96",
+    "creationCodeFile": "",
+    "inheritCode": false,
+    "inheritCreationOrder": false,
+    "inheritLayers": false,
+    "instanceCreationOrderIDs": [
+
+    ],
+    "IsDnD": false,
+    "layers": [
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Instances",
+            "id": "f9f71ece-65da-40e4-a886-d6f4dc227a8b",
+            "depth": 0,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Tiles_Pathway",
+            "id": "03193ca6-44b2-49bc-9449-0299f5671f79",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRTileLayer",
+            "prev_tileheight": 32,
+            "prev_tilewidth": 32,
+            "mvc": "1.0",
+            "tiles": {
+                "SerialiseData": null,
+                "SerialiseHeight": 15,
+                "SerialiseWidth": 20,
+                "TileSerialiseData": [
+                    2147483648,2147483648,2147483648,2147483648,2147483648,0,0,0,0,0,15,0,0,2147483648,0,2147483648,2147483648,2147483648,2147483648,2147483648,
+                    2147483648,2147483648,2147483648,2147483648,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,2147483648,
+                    2147483648,2147483648,0,0,0,0,0,0,0,0,15,0,0,0,0,0,2147483648,2147483648,2147483648,2147483648,
+                    2147483648,2147483648,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,2147483648,2147483648,2147483648,
+                    2147483648,0,0,0,0,0,0,7,0,0,15,0,0,0,0,0,0,0,0,0,
+                    0,0,0,0,11,5,5,21,5,5,21,5,5,5,5,5,5,14,5,5,
+                    5,5,5,5,20,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,
+                    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+                    0,0,2147483648,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483648,
+                    0,0,2147483648,0,0,0,0,0,0,0,0,0,0,0,0,2147483648,0,0,2147483648,2147483648,
+                    5,6,2147483648,0,2147483648,0,2147483648,4,5,5,5,5,5,12,0,0,2147483648,4,6,2147483648,
+                    2147483648,2147483648,0,0,0,0,0,0,0,0,0,0,0,19,5,6,0,0,0,2147483648,
+                    2147483648,2147483648,2147483648,0,0,0,0,2147483648,0,0,0,2147483648,0,0,0,0,0,0,0,0,
+                    2147483648,2147483648,0,2147483648,0,0,0,0,0,0,0,2147483648,0,0,0,0,0,0,0,0,
+                    2147483648,2147483648,2147483648,2147483648,2147483648,0,0,0,2147483648,2147483648,2147483648,2147483648,0,0,0,0,2147483648,2147483648,2147483648,0
+                ]
+            },
+            "tilesetId": "3fcb8690-90af-4014-935a-5837d94244ea",
+            "userdefined_depth": false,
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Tiles_Cliff",
+            "id": "6cb119f8-fd85-485f-bcac-5b5def46af83",
+            "depth": 200,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRTileLayer",
+            "prev_tileheight": 32,
+            "prev_tilewidth": 32,
+            "mvc": "1.0",
+            "tiles": {
+                "SerialiseData": null,
+                "SerialiseHeight": 15,
+                "SerialiseWidth": 20,
+                "TileSerialiseData": [
+                    34,34,24,20,30,6,34,34,24,0,0,2147483648,25,34,7,0,0,6,34,34,
+                    20,20,18,6,34,24,20,20,18,0,0,2147483648,19,20,25,34,34,24,20,20,
+                    6,34,34,24,20,18,0,0,0,0,0,2147483648,2147483648,2147483648,19,20,20,18,0,0,
+                    24,20,20,18,0,0,0,0,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,0,2147483648,2147483648,2147483648,2147483648,
+                    18,0,0,0,0,0,2147483648,2147483648,2147483648,0,0,0,2147483648,2147483648,2147483648,2147483648,1,2147483648,0,0,
+                    0,0,0,0,0,0,0,0,0,0,0,2147483648,0,1,0,2147483648,0,2147483648,0,0,
+                    2147483648,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,6,34,7,2147483648,2147483648,2147483648,2147483648,2147483648,0,
+                    2147483648,2147483648,0,6,34,34,34,34,34,34,34,24,20,25,34,7,2147483648,2147483648,2147483648,6,
+                    34,34,34,24,20,20,20,20,20,20,20,18,2147483648,19,20,25,34,34,34,24,
+                    20,20,20,18,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,0,2147483648,0,0,2147483648,19,20,20,20,18,
+                    0,0,6,34,34,34,7,0,0,0,0,0,0,0,0,0,0,0,0,6,
+                    6,34,24,2,2,2,25,34,34,34,34,7,0,0,0,0,6,34,34,24,
+                    24,2,11,14,14,14,10,2,2,2,2,25,34,34,34,34,24,2,2,11,
+                    11,14,30,0,0,0,31,14,14,14,14,10,8,8,8,8,11,14,14,30,
+                    30,0,2147483648,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,31,14,14,14,14,30,2147483648,2147483648,2147483648
+                ]
+            },
+            "tilesetId": "e3173146-0343-47b3-8301-7125645f1444",
+            "userdefined_depth": false,
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Background",
+            "id": "b5136c23-a563-4699-891b-be01473ef411",
+            "animationFPS": 15,
+            "animationSpeedType": "0",
+            "colour": { "Value": 4294967295 },
+            "depth": 300,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "hspeed": 0,
+            "htiled": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRBackgroundLayer",
+            "mvc": "1.0",
+            "spriteId": "19eee1c2-d060-4489-81aa-45177c525e8d",
+            "stretch": false,
+            "userdefined_animFPS": false,
+            "userdefined_depth": false,
+            "visible": true,
+            "vspeed": 0,
+            "vtiled": true,
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "modelName": "GMRoom",
+    "parentId": "00000000-0000-0000-0000-000000000000",
+    "physicsSettings":     {
+        "id": "c991cbae-1f05-4bbb-a358-b3552f0b1e7f",
+        "inheritPhysicsSettings": false,
+        "modelName": "GMRoomPhysicsSettings",
+        "PhysicsWorld": false,
+        "PhysicsWorldGravityX": 0,
+        "PhysicsWorldGravityY": 10,
+        "PhysicsWorldPixToMeters": 0.1,
+        "mvc": "1.0"
+    },
+    "roomSettings":     {
+        "id": "6e43c025-79e5-4084-8574-2122b06b649e",
+        "Height": 480,
+        "inheritRoomSettings": false,
+        "modelName": "GMRoomSettings",
+        "persistent": false,
+        "mvc": "1.0",
+        "Width": 640
+    },
+    "mvc": "1.0",
+    "views": [
+{"id": "40acb506-a547-46a5-9277-ba5691602ff0","hborder": 32,"hport": 720,"hspeed": -1,"hview": 480,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": true,"vspeed": -1,"wport": 960,"wview": 640,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "e9ca35e3-4a5b-449f-8855-a755db778586","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "c45ae67a-7cbf-4dc3-b5cf-d7c057354d2b","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "6ad9fad4-d516-4806-9d2f-44e78f445cad","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "dce85b0c-553c-4813-8576-4534488bc1c3","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "f22e9699-0ee1-41bc-b0f7-529ecfcdb164","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "3a76f107-942d-4621-8229-2ad91ccbbbaa","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "82a69bef-1a9f-4540-b687-977316be4a91","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0}
+    ],
+    "viewSettings":     {
+        "id": "2b835fb6-60cd-4db5-af29-93cff0d77739",
+        "clearDisplayBuffer": true,
+        "clearViewBackground": true,
+        "enableViews": true,
+        "inheritViewSettings": false,
+        "modelName": "GMRoomViewSettings",
+        "mvc": "1.0"
+    }
+}

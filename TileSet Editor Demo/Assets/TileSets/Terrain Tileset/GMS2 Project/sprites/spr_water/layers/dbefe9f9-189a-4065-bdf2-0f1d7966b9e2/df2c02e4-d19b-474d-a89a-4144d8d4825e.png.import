@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/df2c02e4-d19b-474d-a89a-4144d8d4825e.png-aa651b1e1c0baf5fa443d385b74f0daa.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/TileSets/Terrain Tileset/GMS2 Project/sprites/spr_water/layers/dbefe9f9-189a-4065-bdf2-0f1d7966b9e2/df2c02e4-d19b-474d-a89a-4144d8d4825e.png"
+dest_files=[ "res://.import/df2c02e4-d19b-474d-a89a-4144d8d4825e.png-aa651b1e1c0baf5fa443d385b74f0daa.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

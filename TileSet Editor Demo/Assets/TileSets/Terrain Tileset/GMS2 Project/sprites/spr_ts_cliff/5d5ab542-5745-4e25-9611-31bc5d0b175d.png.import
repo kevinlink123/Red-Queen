@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/5d5ab542-5745-4e25-9611-31bc5d0b175d.png-7dd94f0d3a2b32f2ba38f80b84df144f.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/TileSets/Terrain Tileset/GMS2 Project/sprites/spr_ts_cliff/5d5ab542-5745-4e25-9611-31bc5d0b175d.png"
+dest_files=[ "res://.import/5d5ab542-5745-4e25-9611-31bc5d0b175d.png-7dd94f0d3a2b32f2ba38f80b84df144f.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
