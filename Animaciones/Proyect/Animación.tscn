@@ -371,8 +371,6 @@ position = Vector2( 0, 16 )
 current = true
 limit_left = 0
 limit_right = 850
-drag_margin_h_enabled = false
-drag_margin_v_enabled = false
 smoothing_enabled = true
 editor_draw_screen = false
 editor_draw_limits = true
@@ -388,7 +386,6 @@ margin_bottom = 77.0
 smooth_scrolling = true
 
 [node name="Area2D" type="Area2D" parent="."]
-editor/display_folded = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2( -876.938, 22.0324 )

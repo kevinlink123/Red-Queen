@@ -10,7 +10,8 @@ var velocity = Vector2();
 func _ready():
 	screen_size = get_viewport_rect().size;
 	hide();
-	
+
+
 func _process(delta):
 	if Input.is_action_pressed("ui_up"):
 		velocity.y += -4;
