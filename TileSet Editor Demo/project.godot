@@ -19,6 +19,10 @@ config/name="TileSet Editor Demo"
 run/main_scene="res://Scenes/Map/Base.tscn"
 config/icon="res://icon.png"
 
+[physics]
+
+2d/physics_engine="GodotPhysics"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
