@@ -68,6 +68,7 @@ position = Vector2( 177.665, 144.843 )
 texture = ExtResource( 4 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
+editor/display_folded = true
 position = Vector2( 2, -1 )
 collision_mask = 0
 __meta__ = {
@@ -142,6 +143,7 @@ __meta__ = {
 }
 
 [node name="Area2D" type="Area2D" parent="."]
+editor/display_folded = true
 collision_layer = 2
 collision_mask = 0
 
@@ -150,6 +152,7 @@ position = Vector2( 2.14378, 144.517 )
 shape = SubResource( 2 )
 
 [node name="Jhonny" type="Area2D" parent="."]
+editor/display_folded = true
 __meta__ = {
 "_edit_lock_": true
 }
@@ -162,6 +165,7 @@ __meta__ = {
 }
 
 [node name="HUD" type="CanvasLayer" parent="."]
+editor/display_folded = true
 script = ExtResource( 5 )
 
 [node name="X" type="Sprite" parent="HUD"]
@@ -189,6 +193,7 @@ scale = Vector2( 1.00477, 1 )
 texture = ExtResource( 7 )
 
 [node name="Position2D" type="Position2D" parent="."]
+editor/display_folded = true
 script = ExtResource( 8 )
 
 [node name="Camera2D" type="Camera2D" parent="Position2D"]
@@ -197,6 +202,7 @@ current = true
 smoothing_enabled = true
 
 [node name="The Elder One" type="Area2D" parent="."]
+editor/display_folded = true
 position = Vector2( -96.7245, 148.599 )
 collision_layer = 4
 collision_mask = 0
